@@ -48,3 +48,10 @@ body{
     margin-right: 1em;
     min-height: 25px;
 }
+
+#controls button {
+    border-radius: 10px;
+    border: none;
+    background-color: #f56069;
+    color: aliceblue;
+}
