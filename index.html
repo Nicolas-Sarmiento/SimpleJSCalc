@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div id="main">
+        <div class="calcPart">
+            <label for="value1">Valor 1: </label>
+            <input type="text" id="value1">
+
+            <label for="value2">Valor 2: </label>
+            <input type="text" id="value2" >
+            <div id="controls">
+                <select name="operation" id="operation">
+                    <option value="0" selected>Elegir operación</option>
+                    <option value="1">suma</option>
+                    <option value="2">resta</option>
+                    <option value="3">multiplicación</option>
+                    <option value="4">división</option>
+                </select>
+                <button id="cleaner"> limpiar valores</button>
+            </div>
+           
+        </div>
+        <div class="calcPart" id="result">
+            <p>Para obtener un resultado, selecciona digita los valores y selecciona la operación.</p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
